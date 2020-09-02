@@ -25,7 +25,6 @@ header {
   display: flex;
   align-items: center;
 
-  flex-wrap: wrap;
 
   justify-content: space-between;
 }
@@ -36,7 +35,6 @@ header {
   text-transform: uppercase;
 
   display: flex;
-  flex-wrap: wrap;
 }
 
 .menu li a {
@@ -147,6 +145,21 @@ img {
 .main .container {
   display: block;
 }
+
+@media(max-width: 800px){
+  
+  body header .menu {
+    visibility: hidden;
+    display: block;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+
 
 
 

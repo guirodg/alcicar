@@ -25,7 +25,6 @@ header {
   display: flex;
   align-items: center;
 
-  flex-wrap: wrap;
 
   justify-content: space-between;
 }
@@ -48,7 +47,6 @@ img {
   text-transform: uppercase;
 
   display: flex;
-  flex-wrap: wrap;
 }
 
 .menu li a {
@@ -140,4 +138,22 @@ img {
   height: 600px;
 }
 
+@media(max-width: 800px){
+  
+  body header .menu {
+    visibility: hidden;
+    display: block;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .content img {
+    width: 10rem;
+    height: 10rem;
+  }
+ 
+}
 
