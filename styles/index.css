@@ -129,6 +129,25 @@ img {
   color: #FFF;
 }
 
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main .text {
+  border: 1px solid #ee6781;
+  margin: 15px;
+  display: block;
+}
+
+.main .text p {
+  margin: 15px;
+}
+
+.main .container {
+  display: block;
+}
+
 
 
 
